@@ -1,9 +1,9 @@
 import { City } from '../models/city.model';
 
 /**
- * hardcoded list of 10 US cities with their coordinates to initialize the app. 
- * Temperature and forecast will be filled from the API in runtime if they are availabe for their respective coordinates.
- */
+* hardcoded list of 10 US cities with their coordinates to initialize the app. 
+* Temperature and forecast will be filled from the API in runtime if they are availabe for their respective coordinates.
+*/
 
 export const INITIAL_CITIES: City[] = [
     { id: '1', name: 'New York', lat: 40.7128, lon: -74.0060, temperature: undefined, forecast: undefined },
